@@ -28,44 +28,91 @@
 
     <h2 class="archive__item-title" itemprop="headline">
       {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+        <a href="{{ post.link }}">{{ title }}</a>
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink">
+          <i class="fa fa-link" aria-hidden="true" title="permalink"></i>
+          <span class="sr-only">Permalink</span>
+        </a>
       {% else %}
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h2>
     
     {% if post.read_time %}
-      <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
+      <p class="page__meta">
+        <i class="fa fa-clock" aria-hidden="true"></i>
+        {% include read-time.html %}
+      </p>
     {% endif %}
 
     {% if post.collection == 'teaching' %}
-      <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+      <p>
+        {{ post.type }}, <i>{{ post.venue }}</i>,
+        {{ post.date | default: "1900-01-01" | date: "%Y" }}
+      </p>
     {% elsif post.collection == 'publications' %}
-      <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+      <p>
+        Published in <i>{{ post.venue }}</i>,
+        {{ post.date | default: "1900-01-01" | date: "%Y" }}
+      </p>
     {% elsif post.date %}
       <p class="page__date">
-        <strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong>
-        <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time>
+        <strong>
+          <i class="fa fa-fw fa-calendar" aria-hidden="true"></i>
+          {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}
+        </strong>
+        <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">
+          {{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}
+        </time>
       </p>
     {% endif %}
 
-    {% if post.excerpt and site.read_more != 'enabled' %}
-      <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
-    {% elsif post.excerpt and site.read_more == 'enabled' %}
-      <p class="archive__item-excerpt" itemprop="description">
-        <p>
-          {{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}
-          <strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong>
+    {%- comment -%}
+      对 publications：在列表页显示「精简 citation 行」
+    {%- endcomment -%}
+    {% if post.collection == 'publications' %}
+      {% if post.citation %}
+        <p class="archive__item-excerpt" style="font-size: 0.9em;" itemprop="description">
+          {{ post.citation }}
         </p>
-      </p>
+      {% else %}
+        {%- comment -%}
+          如果有些条目没写 citation，也可以 fallback 成
+          “Author(s), "Title," Venue, Year” 的样式
+        {%- endcomment -%}
+        {% assign pub_year = post.date | default: "1900-01-01" | date: "%Y" %}
+        <p class="archive__item-excerpt" style="font-size: 0.9em;" itemprop="description">
+          {{ post.authors | default: "" }}
+          {% if post.authors %},{% endif %}
+          “{{ title }}”
+          {% if post.venue %}, <i>{{ post.venue }}</i>{% endif %}
+          {% if pub_year %}, {{ pub_year }}{% endif %}.
+        </p>
+      {% endif %}
+    {% else %}
+      {%- comment -%}
+        非 publications collection 仍然保持原来的 excerpt / read more 逻辑
+      {%- endcomment -%}
+      {% if post.excerpt and site.read_more != 'enabled' %}
+        <p class="archive__item-excerpt" itemprop="description">
+          {{ post.excerpt | markdownify }}
+        </p>
+      {% elsif post.excerpt and site.read_more == 'enabled' %}
+        <p class="archive__item-excerpt" itemprop="description">
+          <p>
+            {{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}
+            <strong>
+              <a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a>
+            </strong>
+          </p>
+        </p>
+      {% endif %}
     {% endif %}
     
     {%- comment -%}
-      下面是“推荐引用 + 下载链接”区域：
-      - 支持 paperurl / codeurl / slidesurl / bibtexurl
-      - 自动加分隔符 |
+      下面是「推荐引用 + 下载链接」区域（列表 / 详情都用同一套）  
+      如果你不想在列表页展示链接，可以在这里再加一层控制
     {%- endcomment -%}
-
     {% if post.citation or post.paperurl or post.codeurl or post.slidesurl or post.bibtexurl %}
       <p>
         {% if post.citation %}
