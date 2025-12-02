@@ -3,6 +3,7 @@ title: "ZipServ: Fast and Memory-Efficient LLM Inference with Hardware-Aware Los
 collection: publications
 venue: "Proceedings of the 31st ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)"
 date: 2026-03-01
+order: 1
 
 citation: "**Ruibo Fan**, Xiangrui Yu, Xinglin Pan, Zeyu Li, Weile Luo, Qiang Wang, Wei Wang, and Xiaowen Chu, ‘‘ZipServ: Fast and Memory-Efficient LLM Inference with Hardware-Aware Lossless Compression,’’ in the Proceedings of ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS ’26), Pittsburgh, PA, USA, March 2026."
 
