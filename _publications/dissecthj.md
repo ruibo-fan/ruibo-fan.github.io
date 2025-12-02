@@ -4,6 +4,7 @@ collection: publications
 venue: "ACM Transactions on Computer Systems (TOCS)"
 date: 2025-11-01
 order: 2
+status: "under review" # 新增
 citation: "Weile Luo, **Ruibo Fan**, Zeyu Li, et al., \"Dissecting the NVIDIA Hopper Architecture through Micro-benchmarking and Multiple Level Analysis,\" *ACM Transactions on Computer Systems (TOCS)*, under review."
 
 paperurl: "https://your-hopper-tocs-paper-url"
