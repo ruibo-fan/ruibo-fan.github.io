@@ -14,3 +14,12 @@ Teaching Assistant for **Introduction to Computer Science** at **HKUST(GZ)**
 - Led 50-minute weekly lab sessions and practical programming exercises.
 - Helped students master fundamental computer science concepts, including **data structures**, **algorithms**, and basic **systems**.
 - Guided students through hands-on coding tasks to solidify conceptual understanding.
+
+Heading 1
+======
+
+Heading 2
+======
+
+Heading 3
+======
