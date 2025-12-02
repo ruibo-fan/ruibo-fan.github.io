@@ -3,6 +3,7 @@ title: "DTC-SpMM: Bridging the Gap in Accelerating General Sparse Matrix Multipl
 collection: publications
 venue: "Proceedings of the 29th ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)"
 date: 2024-04-01
+order: 4
 
 citation: "**Ruibo Fan**, Wei Wang, and Xiaowen Chu, \"DTC-SpMM: Bridging the Gap in Accelerating General Sparse Matrix Multiplication with Tensor Cores,\" in *Proceedings of the 29th ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)*, 2024."
 
