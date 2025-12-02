@@ -1,32 +1,45 @@
 ---
+layout: home
+title: "Ruibo Fan"
+subtitle: "Ph.D. Candidate in Data Science and Analytics, HKUST(GZ)"
 permalink: /
-title: "About Me"
-excerpt: "About me"
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
 ---
 
-[cite_start]I am a 3rd-year Ph.D. candidate at the [Hong Kong University of Science and Technology (Guangzhou)](https://www.hkust-gz.edu.cn/), advised by Prof. [Xiaowen Chu](https://xiaowen-chu.github.io/) (Primary Advisor) and Prof. [Wei Wang](https://cse.hkust.edu.hk/~weiwa/) (Co-Advisor, HKUST CSE Department)[cite: 1, 6, 8, 31].
+I am a Ph.D. candidate at the Hong Kong University of Science and Technology (Guangzhou), in the **Data Science and Analytics Thrust**. I am advised by **Prof. Xiaowen Chu** (primary advisor) and **Prof. Wei Wang** (co-advisor, HKUST CSE Department).
 
-My research interests lie in **High-Performance Computing**, particularly focused on **GPU architecture and optimization**. [cite_start]I am currently investigating methods to accelerate sparse matrix operations and graph neural networks on modern GPU architectures[cite: 8, 26, 28, 33].
+My research lies at the intersection of **high‑performance computing**, **GPU architecture analysis and optimization**, and **efficient AI systems**. I design algorithms and systems for:
 
-[cite_start]Prior to joining HKUST(GZ), I received my Master's degree from **Peking University** (2019-2022) at the Academy for Advanced Interdisciplinary Studies, and my Bachelor's degree from **Huazhong University of Science and Technology** (2015-2019) in the School of Artificial Intelligence and Automation[cite: 9, 10, 11, 23, 25].
+- **Sparse matrix computations** and **graph neural network (GNN) acceleration**
+- **Large Language Model (LLM) inference optimization**
+- **GPU microarchitecture characterization and benchmarking**
 
-I am passionate about bridging the gap between theoretical computer architecture and practical performance optimization for real-world applications. My goal is to develop efficient algorithms and systems that can fully utilize modern hardware capabilities to accelerate computational workloads across various domains including AI, scientific computing, and large-scale data processing.
+My long‑term goal is to bridge the gap between **theoretical computer architecture** and **practical, high‑performance implementations** for real‑world workloads in AI, scientific computing, and large‑scale data processing.
+
+---
 
 ## Research Interests
-* GPU Architecture & Parallel Computing
-* Sparse Matrix Operations
-* Large Language Model Inference
-* Graph Neural Networks
+
+- GPU Architecture & Microarchitecture
+- High‑Performance Computing (HPC)
+- Parallel and Distributed Computing
+- Sparse Matrix Operations & Sparse Tensor Computations
+- Graph Neural Networks Acceleration
+- Large Language Model Inference Systems
+- Deep Learning Systems & Compilers
 
 ---
 
-## News & Updates
+## News
 
-* [cite_start]**February 2025:** 🏆 SpInfer has passed the artifact evaluation and received 3 badges (Available, Functional, Reproducible) at **EuroSys 2025**! [cite: 29]
-* **January 2025:** Our paper *"SpInfer: Leveraging Low-Level Sparsity for Efficient Large Language Model Inference on GPUs"* has been accepted by **EuroSys 2025** (CCF-A). Congratulations to all co-authors! (30 papers were accepted out of 367 new submissions) [cite_start][cite: 28, 29]
-* [cite_start]**January 2025:** Our collaborative work *"StbLLM: Breaking the 1-bit barrier with structured binary LLMs"* has been accepted to **ICLR 2025**! [cite: 39]
-* [cite_start]**January 2025:** Our preprint *"Dissecting the NVIDIA Hopper Architecture through Microbenchmarking and Multiple Level Analysis"* is now available on arXiv. [cite: 37, 42]
+- **Oct. 2025** – Started as a **Research Intern** at the Technology Risk and Efficiency (TRE) team, **Alibaba Group**, working on performance optimization and reliability analysis for large‑scale AI and data systems.
+- **Sept. 2025** – Journal extension **“Exploiting Low‑Level Sparsity for Efficient Large Language Model Inference on GPUs with SpInfer”** invited to **ACM Transactions on Computer Systems (TOCS)** (CCF‑A, under review).
+- **Aug. 2025** – Our work **“ROME: Maximizing GPU Efficiency for All‑Pairs Shortest Path via Taming Fine‑Grained Irregularities”** was accepted to **PPoPP 2026** (CCF‑A).
+- **May 2025** – Our work **“ZipServ: Fast and Memory‑Efficient LLM Inference with Hardware‑Aware Lossless Compression”** was accepted to **ASPLOS 2026** (CCF‑A).
+- **Apr. 2025** – Our paper **“SpInfer: Leveraging Low‑Level Sparsity for Efficient Large Language Model Inference on GPUs”** received the **Best Paper Award** at **EuroSys 2025**.
+- **Feb. 2025** – **SpInfer** successfully passed artifact evaluation at EuroSys 2025 and received **three badges**: *Available*, *Functional*, and *Reproducible*.
+- **Jan. 2025** – **SpInfer** was accepted to **EuroSys 2025** (30 papers accepted out of 367 new submissions in the Fall round).
+- **Jan. 2025** – Our collaborative work **“STBLLM: Breaking the 1‑Bit Barrier with Structured Binary LLMs”** was accepted to **ICLR 2025**.
+- **Jan. 2025** – Our preprint **“Dissecting the NVIDIA Hopper Architecture through Micro‑benchmarking and Multiple Level Analysis”** was released on **arXiv** (journal version under review at TOCS).
+
+[View all news](/news/)
