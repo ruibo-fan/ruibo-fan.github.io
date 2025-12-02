@@ -3,7 +3,7 @@ title: "Fast Sparse GPU Kernels for Accelerated Training of Graph Neural Network
 collection: publications
 venue: "International Parallel and Distributed Processing Symposium (IPDPS)"
 date: 2023-05-01
-
+order: 7
 citation: "**Ruibo Fan**, Wei Wang, and Xiaowen Chu, \"Fast Sparse GPU Kernels for Accelerated Training of Graph Neural Networks,\" in *Proceedings of the IEEE International Parallel and Distributed Processing Symposium (IPDPS)*, 2023."
 
 paperurl: "https://your-fast-sparse-gnn-ipdps-paper-url"
