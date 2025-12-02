@@ -19,7 +19,7 @@ My long-term goal is to bridge the gap between theoretical computer architecture
 
 **I am currently on the job market looking for Postdoc or Assistant Professor positions.**
 
-[Curriculum Vitae]
+[Curriculum Vitae](files/RuiboFan_CV_2.pdf)
 
 
 ## To Prospective Collaborators
