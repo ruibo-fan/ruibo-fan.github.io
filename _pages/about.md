@@ -21,10 +21,12 @@ My long-term goal is to bridge the gap between theoretical computer architecture
 
 [Curriculum Vitae]
 
-**To Prospective Collaborators**
+
+## To Prospective Collaborators
 I am always open to collaboration with researchers and students interested in measuring, analyzing, and optimizing large-scale systems. I particularly welcome discussions on efficient GPU kernels, distributed inference frameworks, and system support for sparsity. If you are interested in working with me, please feel free to drop me an email with your background and research interests.
 
-**News**
+## News
+
 **11/2025:** ZipServ accepted to ACM ASPLOS ’26.
 
 **09/2025:** SpInfer invited to ACM TOCS (under review).
