@@ -3,6 +3,7 @@ title: "STBLLM: Breaking the 1-Bit Barrier with Structured Binary LLMs"
 collection: publications
 venue: "The Thirteenth International Conference on Learning Representations (ICLR)"
 date: 2025-05-01
+order: 4
 
 citation: "Peng Dong, Lin Li, Yuke Zhong, Dazhen Du, **Ruibo Fan**, Yuxin Chen, et al., \"STBLLM: Breaking the 1-Bit Barrier with Structured Binary LLMs,\" in *Proceedings of the 13th International Conference on Learning Representations (ICLR)*, 2025."
 
