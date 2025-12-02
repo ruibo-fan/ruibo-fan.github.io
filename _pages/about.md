@@ -1,9 +1,11 @@
 ---
-layout: home
-title: "Ruibo Fan"
-subtitle: "Ph.D. Candidate in Data Science and Analytics, HKUST(GZ)"
 permalink: /
+title: "About Me"
+excerpt: "About me"
 author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
 ---
 
 I am a Ph.D. candidate at the Hong Kong University of Science and Technology (Guangzhou), in the **Data Science and Analytics Thrust**. I am advised by **Prof. Xiaowen Chu** (primary advisor) and **Prof. Wei Wang** (co-advisor, HKUST CSE Department).
