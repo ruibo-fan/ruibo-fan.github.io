@@ -73,7 +73,7 @@
     {% if post.collection == 'publications' %}
       {% if post.citation %}
         <p class="archive__item-excerpt" style="font-size: 0.9em;" itemprop="description">
-          {{ post.citation }}
+          {{ post.citation | markdownify | remove: '<p>' | remove: '</p>' }}
         </p>
       {% endif %}
     {% else %}
