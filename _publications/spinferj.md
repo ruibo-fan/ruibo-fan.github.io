@@ -4,6 +4,7 @@ collection: publications
 venue: "ACM Transactions on Computer Systems (TOCS)"
 date: 2025-10-01
 order: 1
+status: "invited, under review" # 新增
 citation: "**Ruibo Fan**, et al., \"Exploiting Low-Level Sparsity for Efficient Large Language Model Inference on GPUs with SpInfer,\" *ACM Transactions on Computer Systems (TOCS)*, invited, under review."
 
 paperurl: "https://your-spinfer-tocs-paper-url"
