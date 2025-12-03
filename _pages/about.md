@@ -27,9 +27,9 @@ I am always open to collaboration with researchers and students interested in me
 
 ## News
 
-**11/2025:** ZipServ accepted to ACM ASPLOS ’26.
+**11/2025:** ZipServ accepted to ACM ASPLOS ’26 (Acceptance rate: 10.6%, 89/840).
 
-**11/2025:** ROME accepted to ACM PPoPP ’26.
+**11/2025:** ROME accepted to ACM PPoPP ’26 (Acceptance rate: 11.5%, 32/280).
 
 **10/2025:** Started research internship at Alibaba Group (TRE team).
 
