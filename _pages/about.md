@@ -29,11 +29,11 @@ I am always open to collaboration with researchers and students interested in me
 
 **11/2025:** ZipServ accepted to ACM ASPLOS ’26.
 
+**11/2025:** ROME accepted to ACM PPoPP ’26.
+
+**10/2025:** Started research internship at Alibaba Group (TRE team).
+
 **09/2025:** SpInfer invited to ACM TOCS (under review).
-
-**08/2025:** ROME accepted to ACM PPoPP ’26.
-
-**08/2025:** Started research internship at Alibaba Group (TRE team).
 
 **04/2025:** SpInfer honored with the Best Paper Award at ACM EuroSys ’25！
 
