@@ -35,7 +35,7 @@ I am always open to collaboration with researchers and students interested in me
 
 **09/2025:** SpInfer invited to ACM TOCS (under review).
 
-**04/2025:** SpInfer honored with the Best Paper Award at ACM EuroSys ’25！
+**04/2025:** SpInfer honored with the <span style="color:red">**Best Paper Award**</span> at ACM EuroSys ’25! (Top 2 of 85 accepted papers with an overall acceptance rate 12.2%)
 
 **02/2025:** SpInfer received three badges (Available, Functional, Reproducible) at EuroSys ’25.
 
