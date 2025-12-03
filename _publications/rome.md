@@ -6,8 +6,8 @@ date: 2026-02-15
 order: 2
 citation: "Weile Luo, Yuxin Chen, Xiangrui Yu, Qiang Wang, **Ruibo Fan**, Haibo Liu, et al., \"ROME: Maximizing GPU Efficiency for All-Pairs Shortest Path via Taming Fine-Grained Irregularities,\" in *Proceedings of the 31st ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming (PPoPP)*, 2026."
 
-paperurl: "https://your-rome-ppopp-paper-url"
-codeurl:  "https://your-rome-ppopp-code-url"
+paperurl: "https://not-published-yet-contact-authors-for-preprint"
+codeurl:  "https://not-published-yet-contact-authors-for-preprint"
 bibtexurl: "https://your-rome-ppopp-bibtex-url"
 type: "conferences"
 category: conferences
